@@ -1,0 +1,57 @@
+:root {
+    --text_color: #212121;
+    --hover_color : #2196F3;
+    --base_font : roboto;
+    --logo_font : raleway
+}
+
+
+nav {
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+    margin-left: 30px;
+    font-family: var(--logo_font);
+}
+.contacts{
+    display: inline-block;
+    margin-left: 100px;
+}
+nav ul {
+    display: flex;
+    text-indent: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: var(--text_color);
+    font-family: var(--base_font);
+
+}
+.contacts a{
+    text-decoration: none;
+    color: var(--text_color);
+    margin-left: 30px;
+    font-family: var(--base_font);
+}
+.title{
+    text-align: center;
+    line-height: 60px;
+    font-size: 44px;
+    width: 696px;
+    letter-spacing: 6%;
+    font-family: var(--base_font);
+    
+}
+.buy_btn{
+    background-color: var(--hover_color);
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    font-family: var(--base_font);
+}
+.fetures {
+    font-family: var(--base_font);
+    
+}
