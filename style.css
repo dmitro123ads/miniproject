@@ -50,8 +50,23 @@ nav a{
     height: 50px;
     width: 200px;
     font-family: var(--base_font);
+    
 }
 .fetures {
     font-family: var(--base_font);
-    
+    display: flex;
+    justify-items: center;
+    text-align: center;
 }
+.product{
+    font-family: var(--base_font);
+    text-align: center;
+
+}
+
+.workers{
+    margin-top: 150px;
+    display: flex;
+    font-family: var(--base_font);
+}
+
