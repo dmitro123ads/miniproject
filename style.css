@@ -1,85 +1,141 @@
 :root {
     --text_color: #212121;
-    --hover_color : #2196F3;
-    --hero_color : #2F303A;
-    --base_font : roboto;
-    --logo_font : raleway
+    --hover_color: #2196F3;
+    --hero_color: #2F303A;
+    --footer_text: #ffffff;
+    --base_font: roboto;
+    --logo_font: raleway
 }
 
 
 nav {
     display: inline-block;
 }
-.logo{
-    display: inline-block;
+
+.logo {
+    display: flex   ;
+    margin: 0 auto;
     margin-left: 30px;
     font-family: var(--logo_font);
+    color: var(--text_color);
+    align-items: center;
+
 }
-.contacts{
+
+.logo2 {
+    color: var(--hover_color);
+    display: flex;
+}
+
+.contacts {
     display: inline-block;
     margin-left: 100px;
     grid-row-end: auto;
 }
+
 nav ul {
     display: flex;
     gap: 10px;
     list-style: none;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: var(--text_color);
     font-family: var(--base_font);
 
 }
-.contacts a{
+
+.contacts a {
     text-decoration: none;
     color: var(--text_color);
     margin-left: 30px;
     font-family: var(--base_font);
 }
-.title{
+
+.title {
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
     line-height: 60px;
     font-size: 44px;
     width: 696px;
     letter-spacing: 6%;
     font-family: var(--base_font);
-    
+
 }
-.hero{
+
+.hero {
+    flex-direction: column;
     background-color: var(--hero_color);
     color: white;
     align-content: center;
     text-align: center;
-    width: 1600px;
+    width: 100%;
     height: 600px;
 }
-.buy_btn{
+
+.buy_btn {
     background-color: var(--hover_color);
     border-radius: 10px;
     height: 50px;
     width: 200px;
     font-family: var(--base_font);
-    
-    
+    color: var(--footer_text);
+
+
 }
+
 .fetures {
     font-family: var(--base_font);
     display: flex;
     justify-items: center;
     text-align: center;
 }
-.product{
+
+.product {
     font-family: var(--base_font);
     text-align: center;
     gap: 25px;
 }
 
 
-.workers{
+.workers {
     display: flex;
     margin-top: 150px;
     font-family: var(--base_font);
     gap: 25px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--hero_color);
+    padding-left: 215px;
+
+}
+
+.footer_logo {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 30px;
+    font-family: var(--logo_font);
+    color: var(--footer_text);
+    align-items: center;
+}
+
+.footer_contacts {
+    list-style: none;
+
+}
+
+.footer_contacts li {
+    margin-bottom: 10px;
+}
+
+.footer_a {
+    color: var(--footer_text);
+    text-decoration: none;
+    margin-bottom: 15px;
+
+}
