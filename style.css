@@ -1,6 +1,7 @@
 :root {
     --text_color: #212121;
     --hover_color : #2196F3;
+    --hero_color : #2F303A;
     --base_font : roboto;
     --logo_font : raleway
 }
@@ -17,10 +18,11 @@ nav {
 .contacts{
     display: inline-block;
     margin-left: 100px;
+    grid-row-end: auto;
 }
 nav ul {
     display: flex;
-    text-indent: 20px;
+    gap: 10px;
     list-style: none;
 }
 nav a{
@@ -44,12 +46,21 @@ nav a{
     font-family: var(--base_font);
     
 }
+.hero{
+    background-color: var(--hero_color);
+    color: white;
+    align-content: center;
+    text-align: center;
+    width: 1600px;
+    height: 600px;
+}
 .buy_btn{
     background-color: var(--hover_color);
-    border-radius: 15px;
+    border-radius: 10px;
     height: 50px;
     width: 200px;
     font-family: var(--base_font);
+    
     
 }
 .fetures {
@@ -61,12 +72,14 @@ nav a{
 .product{
     font-family: var(--base_font);
     text-align: center;
-
+    gap: 25px;
 }
 
+
 .workers{
-    margin-top: 150px;
     display: flex;
+    margin-top: 150px;
     font-family: var(--base_font);
+    gap: 25px;
 }
 
